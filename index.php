@@ -49,7 +49,7 @@ foreach ($lines as $line) {
 </head>
 <body>
   <div class="header">
-      <h1>Universal Declaration of Human Rights tokenized for LLMs</h1>
+      <h1>Tokenized Universal Declaration of Human Rights</h1>
   </div>
   <div class="wrapper">
     <section class="text">
