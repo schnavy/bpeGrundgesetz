@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 90%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3{
+    font-size: 1.1rem;
+}
+
+h2,
+h3 {
+  margin-bottom: 10px;
+}
+
+.header {
+  position: fixed;
+  bottom: 0px;
+  left: 0%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+
+}
+
+.wrapper {
+  display: flex;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+section {
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+section.text {
+  width: 50%;
+  background-color: rgb(255, 251, 244);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section.text p {
+  color: #1c1c1c;
+}
+
+section.vocab {
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+.hidden {
+}
+
+/* The container will break its children into 4 columns (adjust as needed) */
+.columns {
+  column-count: 3;
+  column-gap: 3em;
+  column-rule: 1px double #6f6f6f;
+}
+/* Each entry is kept whole to avoid breaking across columns */
+.entry {
+  break-inside: avoid;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.token {
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+}
+.id {
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+}
