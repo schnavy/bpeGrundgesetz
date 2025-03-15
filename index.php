@@ -28,6 +28,24 @@ foreach ($lines as $line) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BPE Human Rights</title>
   <link rel="stylesheet" href="style.css" />
+    <!-- Primary Meta Tags -->
+    <title>BPE Human Rights</title>
+    <meta name="title" content="BPE Human Rights" />
+    <meta name="description" content="Universal Declaration of Human Rights tokenized for LLMs" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://humanrights.davidwahrenburg.de/" />
+    <meta property="og:title" content="BPE Human Rights" />
+    <meta property="og:description" content="Universal Declaration of Human Rights tokenized for LLMs" />
+    <meta property="og:image" content="thumb.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://humanrights.davidwahrenburg.de/" />
+    <meta property="twitter:title" content="BPE Human Rights" />
+    <meta property="twitter:description" content="Universal Declaration of Human Rights tokenized for LLMs" />
+    <meta property="twitter:image" content="thumb.jpg" />
 </head>
 <body>
   <div class="header">
