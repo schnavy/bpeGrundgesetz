@@ -4,7 +4,12 @@
 }
 
 html {
-  font-size: 90%;
+  font-size: 95%;
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 80%;
+  }
 }
 
 body {
@@ -15,7 +20,7 @@ body {
 h1,
 h2,
 h3 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 h2,
@@ -67,8 +72,9 @@ section.vocab {
     flex-direction: column;
   }
   section {
-    width: 100% !important;
+    width: calc(100% - 20px) !important;
     height: 50% !important;
+    padding-bottom: 60px;
   }
 }
 
@@ -77,10 +83,17 @@ section.vocab {
 
 /* The container will break its children into 4 columns (adjust as needed) */
 .columns {
-  column-count: 2;
+  column-count: 1;
   column-gap: 3em;
   column-rule: 1px double #6f6f6f;
 }
+
+@container (min-width: 350px) {
+  .columns {
+      column-count: 2;
+    }
+}
+
 
 @container (min-width: 550px) {
     .columns {
